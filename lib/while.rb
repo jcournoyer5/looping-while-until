@@ -1,11 +1,11 @@
 def using_while
-  levitation_force = 6
-# => 0 (return value)
-
-while levitation_force < 10
-  levitation_force += 1
+10.times do 
   puts "Wingardium Leviosa"
 end
-# => nil (return value)
+    counter = 0
+until counter == 10
+  puts "Wingardium Leviosa"
+  counter += 1
+end 
+    
 end
-
